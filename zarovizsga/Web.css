@@ -1,0 +1,146 @@
+html{
+  box-sizing:  border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+
+body{
+  background-color:  rgb(226, 217, 198);
+  color:rgba(77, 50, 20, 0.767);
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+
+section, header, footer{
+  background:rgb(226, 217, 198);
+  font-size: 2em;
+  color: rgba(77, 50, 20, 0.767);
+  text-align: center;
+  padding: 5px;
+  margin: 0 0;
+}
+
+section{
+  font-size: 1em;
+}
+
+ /*tappancs logó*/
+.tap{
+  width: 30%;
+  height: 30%;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+#navikus{
+  background-color: rgb(152, 184, 156);
+}
+
+/*cím linkkel*/
+.onmaga:hover{
+  text-decoration: none;
+}
+
+/*navigációs sáv, linkek*/
+a, .nav-link{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 5px; 
+  text-align: center;
+}
+
+a:visited{
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+/*keresés gomb*/
+.btn{ 
+  background-color: rgb(152, 184, 156);
+  border: 1px solid white;
+  color:white;
+}
+
+.btn:hover{
+  color:white;
+  border: 1px solid white;
+}
+
+.btn:active{
+  color:white;
+  border: 1px solid white;
+}
+
+/*keresési gomb szélessége*/
+.collapse{ 
+  justify-content: center;
+  width: 100%;
+  font-size: 180%;
+}
+
+input{
+  border: 0;
+  padding: 10px;
+}
+  
+/*Mozgó kép*/
+.carousel-inner img{
+  width: 40%;
+  height: 40%;
+  margin-bottom: 5%;
+}
+
+.carousel-indicators{
+  border: none;
+}
+
+.container{
+  max-width: 200%;
+  margin: 0 auto;
+}
+
+img{
+  width: 90%;
+  height: 90%;
+  border-radius: 5%;
+}
+
+/*Őszi kollekciós tábla*/
+.oszi{
+  background-color: rgb(152, 184, 156);
+  border: 2px solid rgb(152, 184, 156);
+  justify-content: center;
+  max-width: 60%;
+  border-radius: 5%;
+  color:rgb(226, 217, 198);
+}
+
+h3{
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+/*js*/
+.toggleNav {
+  display: none;
+}
+
+/*CSILLAG*/
+.error {color: #FF0000;}
+
