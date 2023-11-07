@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(196, 196, 176); 
+}
+
+h1 {
+    color:black;
+}
+
+form {
+    margin: 20px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(221, 221, 198);
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+navbar-nav{
+    margin: 5%;
+}
+.collapse{
+    background:#AA23;
+}
